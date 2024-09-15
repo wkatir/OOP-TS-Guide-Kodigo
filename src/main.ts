@@ -1,12 +1,12 @@
-import './style.css'
-import {$01exercise} from './01exercise'
-import {$02exercise} from './02exercise'
-import {$03exercise} from './03exercise'
-import {$04exercise} from './04exercise'
-import {$05exercise} from './05exercise'
+import "./style.css";
+import { $01exercise } from "./01exercise";
+import { $02exercise } from "./02exercise";
+import { $03exercise } from "./03exercise";
+import { $04exercise } from "./04exercise";
+import { $05exercise } from "./05exercise";
 
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+document.addEventListener("DOMContentLoaded", (): void => {
+  document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
    <header class="header">
    <h1 class="header-title">OBJECT-ORIENTED PROGRAMMING GUIDE WITH TYPESCRIPT</h1>
   </header>
