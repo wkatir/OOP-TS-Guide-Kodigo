@@ -71,7 +71,15 @@ body {
   color: white;
   padding: 2.5rem 2rem 1rem;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.container-class{
+    border-left: 4px solid var(--primary-color);  
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5px;
 }
 
 @media (min-width: 768px) {

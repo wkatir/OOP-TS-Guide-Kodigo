@@ -45,14 +45,13 @@ const account = new Account("Wilmer", 1000, "Savings Account", "12345678-0");
 export const $04exercise = () => {
     const $element = document.getElementById("exercise-4");
     $element!.innerHTML += `
-      <h2>EJERCICIO 4.</h2>
-      <p>Crear una clase Cabecera Pagina, que contenga 3 métodos, el primer método que obtenga el título, color 
-      y fuente de la página, el segundo método que indique como desea que aparezca el título si centrado, derecha o izquierda
-       y el tercer método que imprima todas las propiedades.</p>
+      <h2>EXERCISE 4.</h2>
+      <p>Create a class called Account:</p>
+       <div class="container-class">
        <p>${account.infoAccount()}</p>
        <p>${account.Deposit(10)}</p>
        <p>${account.Withdraw(10)}</p>
-
+       </div>
       `;
   };
   

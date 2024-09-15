@@ -27,16 +27,10 @@ class Calculator{
 export const $02exercise = () => {
     const $element = document.getElementById("exercise-2");
     $element!.innerHTML += `
-      <h2>EJERCICIO 2: </h2>
-      <p>Crear una clase Calculadora que contendrá los siguientes métodos: </p>
-      <ol>
-        <li>Sumar</li>
-        <li>Restar</li>
-        <li>Multiplicar</li>
-        <li>Dividir</li>
-        <li>Potencia</li>
-        <li>Factorial</li>
-      </ol>
+      <h2>EXERCISE 2: </h2>
+      <p>Create a class called Calculator: </p>
+      <div class="container-class">
+      </div>
       `;
   };
   

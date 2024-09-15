@@ -47,13 +47,13 @@ const employee = new Employee("Wilmer", "Salazar", "Santa Tecla", "54647890", 19
 export const $05exercise = () => {
     const $element = document.getElementById("exercise-5");
     $element!.innerHTML += `
-      <h2>EJERCICIO 4.</h2>
-      <p>Crear una clase Cabecera Pagina, que contenga 3 métodos, el primer método que obtenga el título, color 
-      y fuente de la página, el segundo método que indique como desea que aparezca el título si centrado, derecha o izquierda
-       y el tercer método que imprima todas las propiedades.</p>
-       <p>${employee.checkAge()}</p>
-       <p>${employee.printSalary()}</p>
-       <p>${employee.displayData()}</p>
+      <h2>EXERCISE 5.</h2>
+      <p>Create an abstract class called Person and Employee: </p>
+      <div class="container-class">
+        <p>${employee.checkAge()}</p>
+        <p>${employee.printSalary()}</p>
+        <p>${employee.displayData()}</p>
+      </div>
       `;
   };
   
