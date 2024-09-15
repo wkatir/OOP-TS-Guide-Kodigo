@@ -8,11 +8,11 @@ class Song {
         this.musicGenre = musicGenre;
     }
 
-    get receiveAutorName() {
+    get ReceiveAutorName() {
         return this.autor;
     }
 
-    set giveAutorName(autor: string) {
+    set GiveAutorName(autor: string) {
         this.autor = autor;
     }
 
@@ -22,19 +22,18 @@ class Song {
 }
 
 const song = new Song("Nonsense", "Pop");
-song.giveAutorName = "Sabrina Carpenter";
+song.GiveAutorName = "Sabrina Carpenter";
 
 export const $03exercise = () => {
   const $element = document.getElementById("exercise-3");
   $element!.innerHTML += `
-      <h2>EJERCICIO 3.</h2>
-      <p>Crea una clase llamada Canción:</p>
-        <p>Métodos: </p>
-         <ol>
-            <li>Crear un constructor que reciba como parámetros el título y género de la canción.</li>
-            <li>Crear un constructor que reciba como parámetros el título y género de la canción.</li>
-            <li>Crea un método para mostrar los datos de la canción. </li>
-        </ol>
-        <p>${song.infoSong()}</p>
+    <h2>EXERCISE 3.</h2>
+    <p>Create a class called Song:</p>
+    <p>Methods:</p>
+    <ol>
+        <li>Create a constructor that takes the title and genre of the song as parameters.</li>
+        <li>Create a method to display the song's details.</li>
+    </ol>
+    <p>${song.infoSong()}</p>
       `;
 };
