@@ -45,7 +45,7 @@ class Employee extends Person{
 const employee = new Employee("Wilmer", "Salazar", "Santa Tecla", "54647890", 19, 620);
 
 export const $05exercise = () => {
-    const $element = document.getElementById("exercise-4");
+    const $element = document.getElementById("exercise-5");
     $element!.innerHTML += `
       <h2>EJERCICIO 4.</h2>
       <p>Crear una clase Cabecera Pagina, que contenga 3 métodos, el primer método que obtenga el título, color 
@@ -54,7 +54,6 @@ export const $05exercise = () => {
        <p>${employee.checkAge()}</p>
        <p>${employee.printSalary()}</p>
        <p>${employee.displayData()}</p>
-
       `;
   };
   

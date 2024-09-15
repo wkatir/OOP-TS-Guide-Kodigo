@@ -7,13 +7,24 @@ import {$05exercise} from './05exercise'
 
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-      <div id="exercise-1"></div>
-      <div id="exercise-2"></div>
-      <div id="exercise-3"></div>
-      <div id="exercise-4"></div>
-      <div id="exercise-5"></div>
+   <header class="header">
+   <h1 class="header-title">OBJECT-ORIENTED PROGRAMMING GUIDE WITH TYPESCRIPT</h1>
+  </header>
+  <main class="main-container">
+    <div class="exercises-container">
+      <div id="exercise-1" class="exercise-card"></div>
+      <div id="exercise-2" class="exercise-card"></div>
+      <div id="exercise-3" class="exercise-card"></div>
+      <div id="exercise-4" class="exercise-card"></div>
+      <div id="exercise-5" class="exercise-card"></div>
+    </div>
+  </main>  
+  <footer class="footer">
+    <p>Wilmer Salazar</p>
+  </footer>
+
   `;
-  
+
   $01exercise();
   $02exercise();
   $03exercise();
