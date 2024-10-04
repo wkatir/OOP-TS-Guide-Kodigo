@@ -46,7 +46,7 @@ class Employee extends Person {
   }
 
   public printSalary(): string {
-    return `<p>The salary of ${this.firstName} ${this.lastName} is ${this.salary}.</p>`;
+    return `<p>The salary of ${this.firstName} ${this.lastName} is $${this.salary}.</p>`;
   }
 
   public displayData(): string {
